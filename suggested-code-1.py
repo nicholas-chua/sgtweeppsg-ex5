@@ -13,3 +13,4 @@ for region, records in itertools.groupby(data, key=lambda x: x["region"]):
     print(region+"------------------------------------")
     prices=[it["price"] for it in records]
     print(sum(prices)/len(prices))
+    
