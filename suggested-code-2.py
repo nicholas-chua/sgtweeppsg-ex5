@@ -1,5 +1,4 @@
 import csv
-import itertools
 data = dict()
 reader = csv.reader(open("avocado.csv"))
 next(reader)
